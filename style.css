@@ -1,0 +1,111 @@
+.flag{
+    background-color:#FF671F;
+    height:600px;
+    width:100%;
+    position:relative;
+   }
+   .flag > div{
+    background-color: #FFFFFF;
+    height:200px;
+    width:100%;
+    position:absolute;
+    top:200px;
+   }
+   .flag > div > div > div{
+    background-color:#046A38;
+    height:200px;
+    width:100%;
+    position:absolute;
+    top:200px;
+   }
+   .flag> div > div > p{
+    background-color:#06038D;
+    height:100px;
+    width:100px;
+    border-radius:200px;
+    position:absolute;
+    left:45%;
+    top:30px;
+   }
+   @media (min-width:500px) and (max-width:600px){
+    .flag{
+      position: relative;
+      height:300px;
+      width:50%;
+    }
+    .flag > div{
+      position: absolute;
+      top:100px;
+      height:100px;
+      width:100%;
+    }
+    .flag > div > div > div{
+      height:100px;
+      width:100%;
+      position: absolute;
+      top:100px;
+    
+    }
+    .flag> div > div > p{
+      height:50px;
+      width:50px;
+      position: absolute;
+      top:10px;
+      left:110px;
+    }
+   }
+   @media (min-width:350px) and (max-width:400px){
+    .flag{
+      position: relative;
+      height:300px;
+      width:50%;
+    }
+    .flag > div{
+      position: absolute;
+      top:100px;
+      height:100px;
+      width:100%;
+    }
+    .flag > div > div > div{
+      height:100px;
+      width:100%;
+      position: absolute;
+      top:100px;
+    
+    }
+    .flag> div > div > p{
+      height:50px;
+      width:50px;
+      position: absolute;
+      top:9px;
+      left:64px;
+    }
+   }
+   @media (min-width:400px) and (max-width:500px){
+    .flag{
+      position: relative;
+      height:300px;
+      width:50%;
+    }
+    .flag > div{
+      position: absolute;
+      top:100px;
+      height:100px;
+      width:100%;
+    }
+    .flag > div > div > div{
+      height:100px;
+      width:100%;
+      position: absolute;
+      top:100px;
+    
+    }
+    .flag> div > div > p{
+      height:50px;
+      width:50px;
+      position: absolute;
+      top:9px;
+      left:75px;
+    }
+   }
+   
